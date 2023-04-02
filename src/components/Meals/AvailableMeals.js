@@ -12,7 +12,7 @@ const AvailableMeals = () => {
     const fetchMeals = async () => {
       setIsLoading(true);
       const response = await fetch(
-        "https://gun-food-6f9b0-default-rtdb.firebaseio.com/meals.json"
+        "https://food-9486b-default-rtdb.firebaseio.com/meals.json"
       );
       if(!response.ok){
         throw new Error('Something went wrong');
